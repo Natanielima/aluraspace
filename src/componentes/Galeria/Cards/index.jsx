@@ -25,9 +25,6 @@ export default function Cards({aoFavoritar,id,imagem, titulo, creditos, favorito
                             {favorito ? <AiFillHeart {...propsFavorito} color='#ff0000'/> : <AiOutlineHeart {...propsFavorito}/>}
                             <AiOutlineArrowsAlt color='white' />
                         </div>
-                        
-                            {/* <img src={favorito} alt="ícone coração de curtir"/> */}
-                           
                         </span>
                         </div>
                         </li>
