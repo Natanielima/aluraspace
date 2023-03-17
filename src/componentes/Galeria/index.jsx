@@ -17,16 +17,23 @@ export default function Galeria() {
     setItens(novasFotos)
   }
 
-
-
-
-
-
+  const aoFavoritar =(id)=>{
+    setItens(itens.map(item=>{
+      if(item.id===id) item.favorito = !item.favorito
+      return item}))
+  }
   return (
     <section className={styles.galeria}>
         <h2>Navegue pela galeria</h2>
         <Tags tags={tags} filtrarFotos={filtrarFotos} setItens={setItens}/>
-        <Cards itens={itens} styles={styles}/>
+        <div className={styles.galeria__principal}> 
+        {itens.map(itens=>{
+          return <Cards itens={itens} id={itens.id} imagem={itens.imagem} titulo={itens.titulo} creditos={itens.creditos} favorito={itens.favorito} aoFavoritar={aoFavoritar}/>
+        })  
+        }
+
+        </div>
+        
     </section>
   )
 }

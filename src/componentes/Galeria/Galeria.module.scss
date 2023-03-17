@@ -16,6 +16,11 @@
     width: 100%;
     flex-wrap: wrap;
   }
+  &__principal{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
 
   &__card {
     background-color: $azul-escuro;
@@ -38,7 +43,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 1rem;
+      padding: 0 10px 0 10px;
       box-sizing: border-box;
       width: 100%;
 
@@ -49,7 +54,7 @@
       }
 
       span {
-        width: 20%;
+        width: 30%;
         display: flex;
         justify-content: space-between;
         align-items: center;

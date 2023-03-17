@@ -1,7 +1,8 @@
 
 [
     {
-      "titulo": "Nome da Foto",
+      "titulo": "Nome da",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-1.png",
       "id": "1",
@@ -9,6 +10,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-2.png",
       "id": "2",
@@ -16,6 +18,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-3.png",
       "id": "3",
@@ -23,6 +26,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-4.png",
       "id": "4",
@@ -30,6 +34,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-5.png",
       "id": "5",
@@ -37,6 +42,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-6.png",
       "id": "6",
@@ -44,6 +50,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-7.png",
       "id": "7",
@@ -51,6 +58,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-8.png",
       "id": "8",
@@ -58,6 +66,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-9.png",
       "id": "9",
@@ -65,6 +74,7 @@
     },
     {
       "titulo": "Nome da Foto",
+      "favorito": false,
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/foto-10.png",
       "id": "10",
